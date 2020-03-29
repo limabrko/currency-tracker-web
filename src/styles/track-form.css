@@ -1,0 +1,111 @@
+.track-form {
+  width: 500px;
+}
+
+.track-form .currency-group {
+  position: relative;
+}
+
+.track-form .currency-group label {
+  position: absolute;
+  top: 12px;
+  left: 14px;
+  z-index: 1;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #5d7079;
+  line-height: 20px;
+}
+
+.track-form .currency-group .input-wrap {
+  display: flex;
+}
+
+.track-form .currency-group .input-price {
+  height: 72px;
+  padding: 28px 12px 4px;
+  font-size: 22px;
+  line-height: 32px;
+  box-sizing: border-box;
+  flex: 3;
+  border: 1px solid #ced4da;
+}
+
+.track-form .currency-group__to {
+  margin-bottom: 15px;
+}
+
+.track-form .currency-group .btn-currency__cover {
+  flex: 1;
+  height: 72px;
+  padding: 28px 12px 4px;
+  font-size: 22px;
+  line-height: 32px;
+  box-sizing: border-box;
+  background: #527fcd;
+  text-align: left;
+  color: #fff;
+}
+
+.track-form .currency-group .input-currency {
+  display: none;
+  position: absolute;
+  right: 0;
+  width: 400px;
+  z-index: 2;
+}
+
+.track-form .currency-group .selecting .input-currency {
+  display: block;
+}
+
+.track-form .currency-group .input-currency__control {
+  height: 72px;
+}
+
+.track-form .currency-group svg {
+  float: right;
+  margin-top: 6px;
+}
+
+.track-form .currency-divider {
+  border-left: 2px solid #ddd;
+  height: 30px;
+  margin-left: 20px;
+}
+
+.track-form .input-group {
+  padding: 15px 0;
+  position: relative;
+}
+
+.track-form .input-group label {
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.track-form .input-control {
+  padding: 10px 12px;
+  font-size: 22px;
+  line-height: 32px;
+  box-sizing: border-box;
+  background: #fff;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 100%;
+  text-align: left;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+}
+
+.track-form .calendar-wrap {
+  position: absolute;
+  z-index: 1;
+}
+
+.track-form .fa-calendar {
+  width: 20px;
+  float: right;
+  margin: 4px 5px 0 0;
+  color: #aeaeae;
+}

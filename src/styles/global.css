@@ -22,17 +22,42 @@ h1 {
   color: #3d3d3d;
 }
 
-.app .track-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.btn {
+  display: inline-block;
+  min-height: 48px;
+  padding: 12px 24px 10px;
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 36px;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #527fcd;
+  border-color: #527fcd;
 }
 
-.app .track-list li {
-  border-top: 1px solid #ddd;
-  padding: 20px;
+.alert {
+  position: relative;
+  padding: .75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: .25rem;
 }
 
-.app .track-list li:first-child {
-  border-top: none;
+.alert-success {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
 }

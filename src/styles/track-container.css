@@ -1,0 +1,11 @@
+.track-container {
+  display: flex;
+}
+
+.track-container section:first-child {
+  padding-right: 30px;
+}
+
+.track-container section {
+  flex: 1;
+}

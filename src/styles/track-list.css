@@ -1,0 +1,63 @@
+.track-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.track-list li {
+  display: flex;
+  border-top: 1px solid #ddd;
+  padding: 20px 0;
+  position: relative;
+}
+
+.track-list li:first-child {
+  border-top: none;
+}
+
+.track-list .info-wrap {
+  flex: 1;
+}
+
+.track-list .date-wrap {
+  flex: 1;
+  text-align: left;
+}
+
+.track-list .email-wrap {
+  flex: 2;
+  text-align: left;
+}
+
+.track-list .currency {
+  display: inline-block;
+}
+
+.track-list small {
+  display: block;
+}
+
+.track-list span {
+  font-weight: bold;
+}
+
+.track-list .divider {
+  display: inline-block;
+  padding: 10px;
+  color: #aeaeae;
+}
+
+.track-list .btn {
+  position: absolute;
+  right: 0;
+  padding: 0 8px;
+  min-height: auto;
+  line-height: 26px;
+  top: 24px;
+  background: #cf4b4b;
+  border-color: #cf4b4b;
+}
+
+.track-list .fa-trash {
+  width: 10px;
+}
