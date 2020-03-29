@@ -62,8 +62,8 @@ class TrackForm extends Component {
     const trackData = {
       fromCurrency: fromCurrency.value,
       toCurrency: toCurrency.value,
-      fromPrice: parseInt(fromPrice, 10),
-      toPrice: parseInt(toPrice, 10),
+      fromPrice: parseInt(utils.onlyDigits(fromPrice), 10),
+      toPrice: parseInt(utils.onlyDigits(toPrice), 10),
       until: until.toISOString(),
       email
     };
