@@ -1,9 +1,6 @@
 # currency-tracker-web
 A web system to use currency tracker api
 
-## Demo
-Check out the [demo page](https://fill-lima.github.io/currency-tracker-web/)
-
 ## Built-with
 
 - [ReactJS](http://reactjs.org/)
